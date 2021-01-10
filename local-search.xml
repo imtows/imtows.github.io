@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>树莓派一键安装docker</title>
+    <link href="/posts/raspberry_install_docker/"/>
+    <url>/posts/raspberry_install_docker/</url>
+    
+    <content type="html"><![CDATA[<h2 id="树莓派一键安装docker"><a href="#树莓派一键安装docker" class="headerlink" title="树莓派一键安装docker"></a>树莓派一键安装docker</h2><h3 id="1，下载一键安装的脚本"><a href="#1，下载一键安装的脚本" class="headerlink" title="1，下载一键安装的脚本"></a>1，下载一键安装的脚本</h3><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs vim">curl -fsSL http<span class="hljs-variable">s:</span>//<span class="hljs-built_in">get</span>.docker.<span class="hljs-keyword">com</span> -<span class="hljs-keyword">o</span> <span class="hljs-built_in">get</span>-docker.<span class="hljs-keyword">sh</span><br></code></pre></td></tr></table></figure><h3 id="2，运行脚本"><a href="#2，运行脚本" class="headerlink" title="2，运行脚本"></a>2，运行脚本</h3><figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dsconfig"><span class="hljs-string">sh</span> <span class="hljs-built_in">get-docker.sh</span> <br></code></pre></td></tr></table></figure><h3 id="3，等待脚本"><a href="#3，等待脚本" class="headerlink" title="3，等待脚本"></a>3，等待脚本</h3><p>4，不是root用户执行脚本，安装后出现如下图所示提醒</p><p><img src="/images/image-20210110222015223.png"></p><p>只要依次运行如下脚本即可</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs crmsh">sudo groupadd docker     <span class="hljs-comment">#添加docker用户组</span><br>sudo gpasswd -a $<span class="hljs-keyword">USER</span> <span class="hljs-title">docker</span>     <span class="hljs-comment">#将登陆用户加入到docker用户组中</span><br>newgrp docker     <span class="hljs-comment">#更新用户组</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
