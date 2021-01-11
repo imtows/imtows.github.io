@@ -67,13 +67,13 @@ customUrl:
 
 <img src="/images/%E6%88%AA%E5%B1%8F2021-01-12%20%E4%B8%8A%E5%8D%881.13.55.png" alt="截屏2021-01-12 上午1.13.55" style="zoom:50%;" alt="right" />
 
-##### 3.1进入PicGo的目录
+##### 2.3.1进入PicGo的目录
 
 ```
 /Users/用户名/Library/Application Support/picgo
 ```
 
-##### 3.2 安装插件
+##### 2.3.2 安装插件
 
 ```
 npm install 插件名
@@ -86,7 +86,7 @@ npm install picgo-plugin-compress
 npm install imagemin
 ```
 
-##### 3.3启用插件并重启PicGo
+##### 2.3.3启用插件并重启PicGo
 
 ![image-20210112011950932](/images/image-20210112011950932.png)
 
