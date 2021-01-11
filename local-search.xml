@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/posts/test/"/>
-    <url>/posts/test/</url>
-    
-    <content type="html"><![CDATA[<h3 id="这是一个test"><a href="#这是一个test" class="headerlink" title="这是一个test"></a>这是一个test</h3><p>你好啊</p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>crontab 定时器</title>
     <link href="/posts/crontab_timer/"/>
     <url>/posts/crontab_timer/</url>
