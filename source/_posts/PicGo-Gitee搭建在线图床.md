@@ -63,7 +63,7 @@ customUrl:
 
 ##### 3，下载picgo-plugin-compress和imagemin插件
 
-不知道是什么原因，之间在插件设置里面无法安装picgo-plugin-compress插件，去picgo-plugin-compress的 [github](https://github.com/JuZiSang/picgo-plugin-compress) 页面找，发现了[离线安装](https://picgo.github.io/PicGo-Core-Doc/zh/dev-guide/deploy.html#gui%E6%8F%92%E4%BB%B6)的方法。
+不知道是什么原因，之前在插件设置里面无法安装picgo-plugin-compress插件，去picgo-plugin-compress的 [github](https://github.com/JuZiSang/picgo-plugin-compress) 页面找，发现了[离线安装](https://picgo.github.io/PicGo-Core-Doc/zh/dev-guide/deploy.html#gui%E6%8F%92%E4%BB%B6)的方法。
 
 <img src="/images/%E6%88%AA%E5%B1%8F2021-01-12%20%E4%B8%8A%E5%8D%881.13.55.png" alt="截屏2021-01-12 上午1.13.55" style="zoom:50%;" alt="right" />
 
@@ -121,7 +121,7 @@ repo:Gitee用户名/仓库名称
 token：刚刚创建的token
 
 其他留空即可
-*外链单张图大小在 1m之内*
+
 
 
 
