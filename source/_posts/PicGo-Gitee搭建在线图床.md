@@ -13,9 +13,9 @@ index_img: /images/image-20210112012538693.png
 
 ​		因为博客是搭在github上的，github本身速度就慢，如果文章图片太多的话，那速度估计泡杯茶回来才能完全加载完。所以需要一个在线图床在做图片的载体，提高博客的响应速度。用这个笔记记录整个搭建过程。
 
-#### PicGo部分
+#### 2PicGo部分
 
-##### 1，下载PicGo
+##### 2.1，下载PicGo
 
 ```url
 https://github.com/Molunerfinn/PicGo/releases
@@ -37,7 +37,7 @@ https://github.com/Molunerfinn/PicGo/releases
 
 
 
-##### 2，下载Gitee插件
+##### 2.2，下载Gitee插件
 
 ![截屏2021-01-11 下午9.55.03](/images/%E6%88%AA%E5%B1%8F2021-01-11%20%E4%B8%8B%E5%8D%889.55.03.png)
 
@@ -61,21 +61,19 @@ customUrl:
 
 这些配置等下面gitee弄好再回来设置
 
-##### 3，下载picgo-plugin-compress和imagemin插件
+##### 2.3，下载picgo-plugin-compress和imagemin插件
 
 不知道是什么原因，之前在插件设置里面无法安装picgo-plugin-compress插件，去picgo-plugin-compress的 [github](https://github.com/JuZiSang/picgo-plugin-compress) 页面找，发现了[离线安装](https://picgo.github.io/PicGo-Core-Doc/zh/dev-guide/deploy.html#gui%E6%8F%92%E4%BB%B6)的方法。
 
 <img src="/images/%E6%88%AA%E5%B1%8F2021-01-12%20%E4%B8%8A%E5%8D%881.13.55.png" alt="截屏2021-01-12 上午1.13.55" style="zoom:50%;" alt="right" />
 
-
-
-###### 3.1进入PicGo的目录
+##### 3.1进入PicGo的目录
 
 ```
 /Users/用户名/Library/Application Support/picgo
 ```
 
-###### 3.2 安装插件
+##### 3.2 安装插件
 
 ```
 npm install 插件名
@@ -88,25 +86,21 @@ npm install picgo-plugin-compress
 npm install imagemin
 ```
 
-###### 3.3启用插件并重启PicGo
+##### 3.3启用插件并重启PicGo
 
 ![image-20210112011950932](/images/image-20210112011950932.png)
 
+#### 3Gitee部分
 
 
 
-
-
-
-#### Gitee部分
-
-##### 1创建pages仓库
+##### 3.1创建pages仓库
 
 ![截屏2021-01-11 下午10.02.49](/images/%E6%88%AA%E5%B1%8F2021-01-11%20%E4%B8%8B%E5%8D%8810.02.49.png)
 
 填好3个红框的信息，然后创建仓库
 
-##### 2创建私人token
+##### 3.2创建私人token
 
 token在个人设置里面获取
 
