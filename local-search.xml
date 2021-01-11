@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Ubuntu 挂载移动硬盘</title>
+    <link href="/posts/Ubuntu%20%E6%8C%82%E8%BD%BD%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98/"/>
+    <url>/posts/Ubuntu%20%E6%8C%82%E8%BD%BD%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Ubuntu-挂载移动硬盘"><a href="#Ubuntu-挂载移动硬盘" class="headerlink" title="Ubuntu 挂载移动硬盘"></a>Ubuntu 挂载移动硬盘</h3><h4 id="1-插入新硬盘，启动Linux服务器，"><a href="#1-插入新硬盘，启动Linux服务器，" class="headerlink" title="1.插入新硬盘，启动Linux服务器，"></a>1.插入新硬盘，启动Linux服务器，</h4><p>使用fdisk -l 查看硬盘　　</p><p>fdisk -l</p><p><img src="/images/image-20210111174242281.png" alt="image-20210111174242281"></p><p>根据硬盘大小判断是哪个硬盘，记住名称 /dev/sda</p><h4 id="2-格式化硬盘"><a href="#2-格式化硬盘" class="headerlink" title="2.格式化硬盘"></a>2.格式化硬盘</h4><p>mkfs -t ext4 /dev/sda</p><h4 id="3-挂载硬盘"><a href="#3-挂载硬盘" class="headerlink" title="3.挂载硬盘"></a>3.挂载硬盘</h4><p>mount 硬盘地址 要挂载的地址　　</p><p>mount /dev/sda /hardDisk</p><p>(  /hardDisk  系统上要有这个目录，没有的话要创建)</p><h4 id="4-实现系统重启后自动挂载该分区"><a href="#4-实现系统重启后自动挂载该分区" class="headerlink" title="4.实现系统重启后自动挂载该分区"></a>4.实现系统重启后自动挂载该分区</h4><p>vi /etc/fstab　　</p><p>在最后一行添加　　</p><p>/dev/sda /hardDisk ext4 defaults 1 2</p><p>前面 /dev/sda 为硬盘的位置，/hardDisk 为挂载点 后面的意思不懂，能用就行</p><p><img src="/images/image-20210111174319716.png" alt="image-20210111174319716"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>ubuntu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>He DNS 自动更新ip脚本</title>
     <link href="/posts/He%20DNS%20%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0ip%E8%84%9A%E6%9C%AC/"/>
     <url>/posts/He%20DNS%20%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0ip%E8%84%9A%E6%9C%AC/</url>

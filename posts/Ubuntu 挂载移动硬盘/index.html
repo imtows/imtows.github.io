@@ -17,9 +17,25 @@
   <meta name="description" content="">
   <meta name="author" content="来自德国的麦">
   <meta name="keywords" content="">
-  <title>归档 - 撒小啦</title>
+  <title>Ubuntu 挂载移动硬盘 - 撒小啦</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
 
 
 
@@ -47,7 +63,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -141,14 +157,51 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('https://rmt.dogedoge.com/fetch/fluid/storage/bg/dojm2h.png') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="归档">
+            <span class="h2" id="subtitle" title="Ubuntu 挂载移动硬盘">
               
             </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-01-11 17:40" pubdate>
+        2021年1月11日 下午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      154 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      1
+       分钟
+    </span>
+  
+
+  
+  
+</div>
 
             
           </div>
@@ -161,58 +214,90 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 4 篇文章</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2021</p>
-    
-    <a href="/posts/Ubuntu%20%E6%8C%82%E8%BD%BD%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Ubuntu 挂载移动硬盘</span>
-      <time style="float: right;">01-11</time>
-    </a>
-  
-    
-    <a href="/posts/He%20DNS%20%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0ip%E8%84%9A%E6%9C%AC/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">He DNS 自动更新ip脚本</span>
-      <time style="float: right;">01-11</time>
-    </a>
-  
-    
-    <a href="/posts/crontab_timer/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">crontab 定时器</span>
-      <time style="float: right;">01-11</time>
-    </a>
-  
-    
-    <a href="/posts/raspberry_install_docker/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">树莓派一键安装docker</span>
-      <time style="float: right;">01-10</time>
-    </a>
-  
-</div>
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Ubuntu 挂载移动硬盘</h1>
+            
+            <div class="markdown-body">
+              <h3 id="Ubuntu-挂载移动硬盘"><a href="#Ubuntu-挂载移动硬盘" class="headerlink" title="Ubuntu 挂载移动硬盘"></a>Ubuntu 挂载移动硬盘</h3><h4 id="1-插入新硬盘，启动Linux服务器，"><a href="#1-插入新硬盘，启动Linux服务器，" class="headerlink" title="1.插入新硬盘，启动Linux服务器，"></a>1.插入新硬盘，启动Linux服务器，</h4><p>使用fdisk -l 查看硬盘　　</p>
+<p>fdisk -l</p>
+<p><img src="/images/image-20210111174242281.png" srcset="/img/loading.gif" alt="image-20210111174242281"></p>
+<p>根据硬盘大小判断是哪个硬盘，记住名称 /dev/sda</p>
+<h4 id="2-格式化硬盘"><a href="#2-格式化硬盘" class="headerlink" title="2.格式化硬盘"></a>2.格式化硬盘</h4><p>mkfs -t ext4 /dev/sda</p>
+<h4 id="3-挂载硬盘"><a href="#3-挂载硬盘" class="headerlink" title="3.挂载硬盘"></a>3.挂载硬盘</h4><p>mount 硬盘地址 要挂载的地址　　</p>
+<p>mount /dev/sda /hardDisk</p>
+<p>(  /hardDisk  系统上要有这个目录，没有的话要创建)</p>
+<h4 id="4-实现系统重启后自动挂载该分区"><a href="#4-实现系统重启后自动挂载该分区" class="headerlink" title="4.实现系统重启后自动挂载该分区"></a>4.实现系统重启后自动挂载该分区</h4><p>vi /etc/fstab　　</p>
+<p>在最后一行添加　　</p>
+<p>/dev/sda /hardDisk ext4 defaults 1 2</p>
+<p>前面 /dev/sda 为硬盘的位置，/hardDisk 为挂载点 后面的意思不懂，能用就行</p>
+<p><img src="/images/image-20210111174319716.png" srcset="/img/loading.gif" alt="image-20210111174319716"></p>
 
-
-
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/ubuntu/">ubuntu</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/He%20DNS%20%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0ip%E8%84%9A%E6%9C%AC/">
+                        <span class="hidden-mobile">He DNS 自动更新ip脚本</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -292,9 +377,15 @@
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
 
 
 
