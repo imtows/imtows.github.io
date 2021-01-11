@@ -4,6 +4,7 @@ date: 2021-01-10 22:17:27
 tags:
 urlname: raspberry_install_docker
 typora-root-url: ../../source
+index_img: /images/8D2C13D5-7E03-4A42-B382-56DE0390296A.png
 ---
 
 ## 树莓派一键安装docker
@@ -17,7 +18,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 ### 2，运行脚本
 
 ```
-sh get-docker.sh 
+sh get-docker.sh
 ```
 
 ### 3，等待脚本
