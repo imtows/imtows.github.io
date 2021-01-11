@@ -55,7 +55,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":50,"cursorChar":".","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":90,"cursorChar":".","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -157,7 +157,7 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('https://rmt.dogedoge.com/fetch/fluid/storage/bg/dojm2h.png') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -228,7 +228,7 @@
             
             <div class="markdown-body">
               <h2 id="树莓派一键安装docker"><a href="#树莓派一键安装docker" class="headerlink" title="树莓派一键安装docker"></a>树莓派一键安装docker</h2><h3 id="1，下载一键安装的脚本"><a href="#1，下载一键安装的脚本" class="headerlink" title="1，下载一键安装的脚本"></a>1，下载一键安装的脚本</h3><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs vim">curl -fsSL http<span class="hljs-variable">s:</span>//<span class="hljs-built_in">get</span>.docker.<span class="hljs-keyword">com</span> -<span class="hljs-keyword">o</span> <span class="hljs-built_in">get</span>-docker.<span class="hljs-keyword">sh</span><br></code></pre></td></tr></table></figure>
-<h3 id="2，运行脚本"><a href="#2，运行脚本" class="headerlink" title="2，运行脚本"></a>2，运行脚本</h3><figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dsconfig"><span class="hljs-string">sh</span> <span class="hljs-built_in">get-docker.sh</span> <br></code></pre></td></tr></table></figure>
+<h3 id="2，运行脚本"><a href="#2，运行脚本" class="headerlink" title="2，运行脚本"></a>2，运行脚本</h3><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs vim"><span class="hljs-keyword">sh</span> <span class="hljs-built_in">get</span>-docker.<span class="hljs-keyword">sh</span><br></code></pre></td></tr></table></figure>
 <h3 id="3，等待脚本"><a href="#3，等待脚本" class="headerlink" title="3，等待脚本"></a>3，等待脚本</h3><p>4，不是root用户执行脚本，安装后出现如下图所示提醒</p>
 <p><img src="/images/image-20210110222015223.png" srcset="/img/loading.gif"></p>
 <p>只要依次运行如下脚本即可</p>
