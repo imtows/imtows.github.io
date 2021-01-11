@@ -13,7 +13,9 @@ index_img:
 
 使用fdisk -l 查看硬盘　　
 
+```shell
 fdisk -l
+```
 
 ![image-20210111174242281](/images/image-20210111174242281.png)
 
@@ -23,7 +25,9 @@ fdisk -l
 
 #### 2.格式化硬盘　　
 
+``` shell 
 mkfs -t ext4 /dev/sda
+```
 
 
 
@@ -31,7 +35,11 @@ mkfs -t ext4 /dev/sda
 
 mount 硬盘地址 要挂载的地址　　
 
+``` shell
 mount /dev/sda /hardDisk
+```
+
+
 
 (  /hardDisk  系统上要有这个目录，没有的话要创建)
 
@@ -39,11 +47,15 @@ mount /dev/sda /hardDisk
 
 #### 4.实现系统重启后自动挂载该分区　　
 
-vi /etc/fstab　　
+``` shell
+vi /etc/fstab
+```
 
-在最后一行添加　　
+在最后一行添加　
 
+``` shell
 /dev/sda /hardDisk ext4 defaults 1 2
+```
 
 前面 /dev/sda 为硬盘的位置，/hardDisk 为挂载点 后面的意思不懂，能用就行
 
