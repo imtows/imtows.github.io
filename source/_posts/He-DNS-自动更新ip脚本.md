@@ -4,7 +4,7 @@ urlname: He DNS 自动更新ip脚本
 typora-root-url: ../../source
 date: 2021-01-11 16:19:39
 tags: [ddns,动态域名]
-index_img: /images/image-20210111162545352.png
+index_img: https://gitee.com/iszheng/pico/raw/master/img/1610548833375-image-20210111162545352.png
 ---
 
 ### He DNS 自动更新ip脚本

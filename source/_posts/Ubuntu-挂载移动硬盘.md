@@ -17,7 +17,7 @@ index_img:
 fdisk -l
 ```
 
-![image-20210111174242281](/images/image-20210111174242281.png)
+![image-20210111174242281](https://gitee.com/iszheng/pico/raw/master/img/1610548966993-image-20210111174242281.png)
 
 根据硬盘大小判断是哪个硬盘，记住名称 /dev/sda
 
@@ -61,4 +61,4 @@ vi /etc/fstab
 
 
 
-![image-20210111174319716](/images/image-20210111174319716.png)
+![image-20210111174319716](https://gitee.com/iszheng/pico/raw/master/img/1610548973479-image-20210111174319716.png)

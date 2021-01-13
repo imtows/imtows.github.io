@@ -3,7 +3,7 @@ title: crontab 定时器
 urlname: crontab_timer
 date: 2021-01-11 01:20:20
 tags: [crontab]
-index_img: /images/8BDE8F8B-0B0C-4737-A959-1838AF57FB58.jpeg
+index_img: https://gitee.com/iszheng/pico/raw/master/img/1610548793949-8BDE8F8B-0B0C-4737-A959-1838AF57FB58.jpeg
 typora-root-url: ../../source
 ---
 
@@ -27,5 +27,5 @@ crontab -e
 
 定时规则网上一大堆，随便捞就是一大把，后面的命令，如果是shell的话，要指定日志输入或者输出指向null，否则，如果服务器没有配置邮箱的话，会报以下错误。
 
-![错误提示](/images/image-20210111013052917.png)
+![错误提示](https://gitee.com/iszheng/pico/raw/master/img/1610548772024-image-20210111013052917.png)
 
