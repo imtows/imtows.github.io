@@ -25,7 +25,7 @@ yop邮箱是没有密码的，也就是别人知道了你的邮箱名，就能�
 
 #### 2.申请office A1 账号
 
-前往offcie教育网站申请教育账号 [出门右转](https://www.microsoft.com/zh-tw/education/products/office)
+前往office教育网站申请教育账号 [出门右转](https://www.microsoft.com/zh-tw/education/products/office)
 
 ![截屏2021-01-16 下午8.58.19](https://gitee.com/iszheng/pico/raw/master/img/2021-01-16-20-59-13-22b607.png)
 
