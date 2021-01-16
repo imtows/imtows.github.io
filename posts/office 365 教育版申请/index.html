@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="来自德国的麦">
   <meta name="keywords" content="">
-  <title>Docker 运行容器：halo - 撒小啦</title>
+  <title>office 365 教育版申请 - 撒小啦</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -162,7 +162,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Docker 运行容器：halo">
+            <span class="h2" id="subtitle" title="office 365 教育版申请">
               
             </span>
 
@@ -172,8 +172,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-01-13 23:14" pubdate>
-        2021年1月13日 晚上
+      <time datetime="2021-01-16 21:09" pubdate>
+        2021年1月16日 晚上
       </time>
     </span>
   
@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      255 字
+      386 字
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      5
        分钟
     </span>
   
@@ -224,23 +224,27 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Docker 运行容器：halo</h1>
+            <h1 style="display: none">office 365 教育版申请</h1>
             
             <div class="markdown-body">
-              <p>Docker 运行容器：halo</p>
-<p>由于没有arm64版本的halo镜像，所以这里自己做个镜像</p>
-<p>1下载jar包</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/halo-dev/halo/releases">https://github.com/halo-dev/halo/releases</a></p>
-<p>2编辑Dockerfile文件，和 jar 包放在同一个目录下面</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile"><span class="hljs-comment"># VERSION 0.0.1</span><br><span class="hljs-comment"># Author: mdx</span><br><span class="hljs-comment"># 基础镜像使用java---目前好找到的适用于树莓派的jdk8</span><br><span class="hljs-keyword">FROM</span> arm64v8/openjdk:<span class="hljs-number">8</span>u121-jre-alpine<br><span class="hljs-comment"># 作者</span><br><span class="hljs-keyword">MAINTAINER</span> mdx <br><span class="hljs-comment"># VOLUME 指定了临时文件目录为/tmp。</span><br><span class="hljs-comment"># 其效果是在主机 /var/lib/docker 目录下创建了一个临时文件，并链接到容器的/tmp</span><br><span class="hljs-keyword">VOLUME</span><span class="bash"> /tmp</span><br><span class="hljs-comment"># 将jar包添加到容器中并更名为app.jar</span><br><span class="hljs-keyword">ADD</span><span class="bash"> halo-1.4.2.jar app.jar</span><br><span class="hljs-comment"># 运行jar包</span><br><span class="hljs-keyword">ENTRYPOINT</span><span class="bash"> [<span class="hljs-string">&quot;java&quot;</span>,<span class="hljs-string">&quot;-jar&quot;</span>,<span class="hljs-string">&quot;/app.jar&quot;</span>]</span><br></code></pre></td></tr></table></figure>
-<p>创建镜像(注意后面的 .</p>
-<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">docker</span> build -t mdx/halo_arm<span class="hljs-number">64</span>:v<span class="hljs-number">1</span> .<br></code></pre></td></tr></table></figure>
-<p>4下载通用配置文件，然后编辑文件</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">curl -o <span class="hljs-regexp">/home/u</span>buntu<span class="hljs-regexp">/tmp/</span>application.yaml  --create-dirs  https:<span class="hljs-regexp">//</span>dl.halo.run<span class="hljs-regexp">/config/</span>application-template.yaml<br></code></pre></td></tr></table></figure>
+              <h3 id="申请office-365-教育版账号"><a href="#申请office-365-教育版账号" class="headerlink" title="申请office 365 教育版账号"></a>申请office 365 教育版账号</h3><h4 id="1-申请教育邮箱"><a href="#1-申请教育邮箱" class="headerlink" title="1.申请教育邮箱"></a>1.申请教育邮箱</h4><p>前往 <a target="_blank" rel="noopener" href="http://www.yopmail.com/zh/">yop.mail</a> 申请一个账号，这个申请的账号，会自动关联到ncov.office.gy域名下。</p>
+<p>例如 <a href="mailto:&#x78;&#120;&#120;&#x40;&#121;&#111;&#x70;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x78;&#120;&#120;&#x40;&#121;&#111;&#x70;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a> 邮箱，会有一个<a href="mailto:&#x78;&#120;&#x78;&#64;&#110;&#x63;&#111;&#118;&#x2e;&#x6f;&#102;&#102;&#105;&#x63;&#101;&#x2e;&#103;&#x79;">&#x78;&#120;&#x78;&#64;&#110;&#x63;&#111;&#118;&#x2e;&#x6f;&#102;&#102;&#105;&#x63;&#101;&#x2e;&#103;&#x79;</a>关联邮箱</p>
+<p><img src="https://gitee.com/iszheng/pico/raw/master/img/2021-01-16-20-54-10-cdf6f2.png" srcset="/img/loading.gif" alt="截屏2021-01-16 下午8.53.43"></p>
+<p>这里点击查看邮箱就可以进到邮箱里面。</p>
+<p>yop邮箱是没有密码的，也就是别人知道了你的邮箱名，就能进去看发给你的邮件。</p>
+<p>假设这里申请一个<a href="mailto:&#115;&#x61;&#120;&#x69;&#x61;&#x6f;&#64;&#121;&#x6f;&#x70;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;">&#115;&#x61;&#120;&#x69;&#x61;&#x6f;&#64;&#121;&#x6f;&#x70;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#109;</a> 邮箱，往下继续</p>
+<h4 id="2-申请office-A1-账号"><a href="#2-申请office-A1-账号" class="headerlink" title="2.申请office A1 账号"></a>2.申请office A1 账号</h4><p>前往offcie教育网站申请教育账号 <a target="_blank" rel="noopener" href="https://www.microsoft.com/zh-tw/education/products/office">出门右转</a></p>
+<p><img src="https://gitee.com/iszheng/pico/raw/master/img/2021-01-16-20-59-13-22b607.png" srcset="/img/loading.gif" alt="截屏2021-01-16 下午8.58.19"></p>
+<p>这里不要写 <a href="mailto:&#115;&#97;&#x78;&#x69;&#x61;&#x6f;&#x40;&#x79;&#x6f;&#x70;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#115;&#97;&#x78;&#x69;&#x61;&#x6f;&#x40;&#x79;&#x6f;&#x70;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>，要用<a href="mailto:&#115;&#x61;&#120;&#x69;&#97;&#x6f;&#64;&#x6e;&#99;&#111;&#118;&#x2e;&#111;&#102;&#102;&#105;&#x63;&#101;&#46;&#x67;&#x79;">&#115;&#x61;&#120;&#x69;&#97;&#x6f;&#64;&#x6e;&#99;&#111;&#118;&#x2e;&#111;&#102;&#102;&#105;&#x63;&#101;&#46;&#x67;&#x79;</a></p>
+<h4 id="3-升级office-账号为-A1-plus"><a href="#3-升级office-账号为-A1-plus" class="headerlink" title="3.升级office 账号为 A1 plus"></a>3.升级office 账号为 A1 plus</h4><p>加入群组，升级账号 <a target="_blank" rel="noopener" href="https://account.activedirectory.windowsazure.com/r#/joinGroups">https://account.activedirectory.windowsazure.com/r#/joinGroups</a></p>
+<p>群组选择 “中国加油 武汉加油”</p>
+<p>此后账号就升级为 A1 plus</p>
+<h4 id="4-下载office-365"><a href="#4-下载office-365" class="headerlink" title="4.下载office 365"></a>4.下载office 365</h4><p>此时账号应该要验证手机或者邮箱，验证就是了，然后看用户信息里面的订阅</p>
+<p><img src="https://gitee.com/iszheng/pico/raw/master/img/2021-01-16-21-05-13-ace1e3.png" srcset="/img/loading.gif" alt="截屏2021-01-16 下午9.04.07"></p>
+<p>这个时候，在个人账号页面里会出现 安装office 这个按钮，下载安装包</p>
+<p><img src="https://gitee.com/iszheng/pico/raw/master/img/2021-01-16-21-08-06-e5b829.png" srcset="/img/loading.gif" alt="截屏2021-01-16 下午9.05.53"></p>
+<h4 id="5-撒花"><a href="#5-撒花" class="headerlink" title="5.撒花"></a>5.撒花</h4><p>安装后，用<a href="mailto:&#115;&#x61;&#120;&#105;&#97;&#x6f;&#64;&#x6e;&#x63;&#111;&#x76;&#46;&#x6f;&#x66;&#102;&#x69;&#x63;&#x65;&#46;&#x67;&#121;">&#115;&#x61;&#120;&#105;&#97;&#x6f;&#64;&#x6e;&#x63;&#111;&#x76;&#46;&#x6f;&#x66;&#102;&#x69;&#x63;&#x65;&#46;&#x67;&#121;</a>账号激活即可。</p>
 
-
-<p>5把下载的文件，放到挂在目录下，然后启动容器</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk">docker run -it -d --name halo -p <span class="hljs-number">8090</span>:<span class="hljs-number">8090</span>  \<br>-v <span class="hljs-regexp">/hardDisk/</span>dockerData<span class="hljs-regexp">/halo:/</span>root/.halo \<br>mdx/arm-holo:v1<br></code></pre></td></tr></table></figure>
             </div>
             <hr>
             <div>
@@ -256,18 +260,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/office%20365%20%E6%95%99%E8%82%B2%E7%89%88%E7%94%B3%E8%AF%B7/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">office 365 教育版申请</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/docker%20%E4%BF%AE%E6%94%B9%E9%95%9C%E5%83%8F%E6%BA%90/">
-                        <span class="hidden-mobile">docker 修改镜像源</span>
+                      <a href="/posts/Docker%20%E8%BF%90%E8%A1%8C%E5%AE%B9%E5%99%A8%EF%BC%9Ahalo/">
+                        <span class="hidden-mobile">Docker 运行容器：halo</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
